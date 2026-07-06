@@ -1,0 +1,15 @@
+# personal study notes (not part of the published project)
+BI_DataAnalyst_Reading_Notes_Patrick_Gichuki.docx
+Dashboard.jpeg
+
+# Office/Excel lock & temp files
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
