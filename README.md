@@ -84,4 +84,11 @@ Built as a mentorship challenge: improve on a baseline descriptive dashboard
 storytelling. The baseline answers *"what sold?"*; this project answers *"what should we
 do, and what is it worth?"*
 
-**Patrick Gichuki** · BI & Data Analyst (accounting background)
+
+---
+
+## 👤 Author
+
+**Analyst:** Patrick Mwangi Gichuki
+**Portfolio:** [https://gichuki.site](https://gichuki.site)
+**LinkedIn:** [https://www.linkedin.com/in/patrick-gichuki-the-bi-analyst](https://www.linkedin.com/in/patrick-gichuki-the-bi-analyst)
