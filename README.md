@@ -26,6 +26,23 @@ The answer, quantified from the transaction data:
 | Promote the "Puzzles" | +15% volume on 9 premium-but-invisible pizzas | +$27.4K |
 | **Total** | | **≈ +$88K (+11%)** |
 
+**How the $88K is calculated** — every lever is `base × assumption`, and every
+input is computed from `data/pizza_sales.csv`:
+
+| Lever | The arithmetic | Gain |
+|---|---|---:|
+| Size upsell | 21,350 orders × 1-in-5 = 4,270 upgraded baskets × ≈$5.60 average size-ladder uplift (median step $4.00) | +$23.9K |
+| Second-pizza attach | 8,111 single-pizza orders × 10% = 811 added smalls × $12.36 average small-pizza price | +$10.0K |
+| 3–4pm happy hour | $53.0K of annual revenue in the 15:00 hour × +30% | +$15.9K |
+| Close the Sunday gap | 52 Sundays × ($2,721 − $1,908) per day × 25% recovered | +$10.6K |
+| Promote the "Puzzles" | 9 premium-but-invisible pizzas taking $182.7K a year × +15% volume | +$27.4K |
+| **Total** | | **≈ +$87.8K** |
+
+**A scenario, not realized revenue.** These five products are opportunity
+arithmetic on one year of transactions — a sizing of what each lever *could* be
+worth. Not a measured result, not a forecast, and nothing here was piloted: each
+lever should be tested and measured before anyone books it.
+
 Full analysis: **[report/REPORT.md](report/REPORT.md)**
 
 ## What's in the dashboard

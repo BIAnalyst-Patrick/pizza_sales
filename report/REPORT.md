@@ -1,6 +1,6 @@
 # Plato's Pizza 2015 — The Flat-Revenue Diagnosis and the +$88K Recovery Plan
 
-**Author:** Patrick Gichuki · BI & Data Analyst
+**Author:** Patrick Gichuki · Sales & Financial Performance Analyst
 **Data:** 48,620 order lines · 21,350 orders · 358 open days · full year 2015
 **Tools:** Excel (dashboard), Python (validation & figures)
 
@@ -25,6 +25,11 @@ single new customer — are worth ≈ $88K a year, an 11% uplift:**
 
 The analysis below explains each conclusion; a menu-engineering matrix, a demand heatmap
 and a revenue-concentration view carry the diagnosis.
+
+**A scenario, not realized revenue.** Every figure in the table above is opportunity
+arithmetic on one year of transactions — a sizing of what each lever *could* be worth,
+not a measured result and not a forecast. Nothing here was piloted; each lever should be
+tested and measured before anyone books it.
 
 ---
 
@@ -94,6 +99,25 @@ second-pizza attach are counter scripts (train staff, measure weekly); the happy
 Sunday promotions are marketing calendar items; the Puzzle promotion is a menu-design
 change. Together they are worth **≈ $87.8K a year — an 11% uplift with zero customer
 acquisition cost.**
+
+### The arithmetic, lever by lever
+
+Each lever is `base × assumption`, with every input computed from
+`data/pizza_sales.csv`:
+
+| Lever | The arithmetic | Gain |
+|---|---|---:|
+| Size upsell | 21,350 orders × 1-in-5 = 4,270 upgraded baskets × ≈$5.60 average uplift on the observed size ladder (median step $4.00) | **+$23.9K** |
+| Second-pizza attach | 8,111 single-pizza orders × 10% = 811 added smalls × $12.36 average small-pizza price | **+$10.0K** |
+| 3–4pm happy hour | $53.0K of annual revenue in the 15:00 hour × +30% | **+$15.9K** |
+| Close the Sunday gap | 52 Sundays × ($2,721 − $1,908) per day × 25% recovered | **+$10.6K** |
+| Promote the "Puzzles" | 9 premium-but-invisible pizzas (realised price above the $16.98 median, units below the 1,452 median) taking $182.7K a year × +15% volume | **+$27.4K** |
+| **Total** | | **≈ +$87.8K** |
+
+The one input that is a stated assumption rather than a direct read is the size-upsell
+uplift per basket: the ladder is $4.00 per step at the median, and a full re-derivation
+from the CSV puts the per-basket average between $5.4 and $5.6 depending on how pizzas
+already at their largest size are treated — the published +$23.9K sits inside that band.
 
 ---
 
